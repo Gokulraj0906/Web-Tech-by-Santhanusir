@@ -66,3 +66,61 @@ only we are creating a structure.
 
 **`<body></body>`**
 * The content we want to display in the broswer everything should be written inside this tag.
+
+## HEading Tag
+
+
+
+
+
+
+
+
+
+
+## Formating tags 
+* It is used to chnage the appearance or fomat of the text content
+
+**`<b></b>`**
+* This is used to make the content bold
+
+**`<strong></strong>`**
+* It is also use to make the content bold but this tag having **higher priority** compare to `<b></b>` tag
+
+**`<i></i>`**
+* It used to make the content in italic
+
+**`<em><em>`**
+* This is used to make the content itali same like **`<i></i>`**.
+
+**`<u></u>`**
+* This tage is used to make or provide the underline for the text content.
+
+**`<ins></ins>`**
+* it is also used to provide the underline for the text 
+
+**`<mark></mark>`**
+* it is used to provide high light for the text 
+
+***`Important`***
+
+**`<sup></sup>`**
+* It is used to write any content at the power
+
+**`<sub></su>`**
+* it is used to write any content at the base
+
+***`end of Important`***
+
+**`<q></q>`**
+* It is used to provide a double qoutes to the centent
+
+**`<pre></pre>`**
+* It is pre-formatted tag, inside this tag how we will
+write the content it will display as it is .
+
+**`<del></del>`**
+* It is used to give strike through the text.
+
+**`<br>`**
+* 
