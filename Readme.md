@@ -67,16 +67,29 @@ only we are creating a structure.
 **`<body></body>`**
 * The content we want to display in the broswer everything should be written inside this tag.
 
-## HEading Tag
+## Heading Tag
 
+**Heading tags**
 
+* In html for providing headlines (heading or subheading)
+* There are 6 heading tags 
+* `<h1></h1> to <h6></h6>`
+* heading tags all paired tags
+* all the heading tags are block - level element
 
+    * Eg
+        * `<h1></h1>`
+        * `<h2></h2>`
+        * `<h3></h3>`
+        * `<h4></h4>`
+        * `<h5></h5>`
+        * `<h6></h6>`
 
-
-
-
-
-
+**Paragraph**
+* In html if we want to write a any text content , that should be written by using a paragraph tag(`<p></p>`)
+* Paragraph tag is denoted by `<p></p>` and this is paired tag
+* It is a block-level element 
+* paragraph tag size is 16 pixels
 
 ## Formating tags 
 * It is used to chnage the appearance or fomat of the text content
@@ -123,4 +136,10 @@ write the content it will display as it is .
 * It is used to give strike through the text.
 
 **`<br>`**
-* 
+* It is used to to break the line 
+* It help to move the content in the next line,
+* It is unpaired tag
+
+**`<hr>`**
+* It is used to provide the horizontal line
+* It is unpaired tag
