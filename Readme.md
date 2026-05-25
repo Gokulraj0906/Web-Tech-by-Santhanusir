@@ -143,3 +143,36 @@ write the content it will display as it is .
 **`<hr>`**
 * It is used to provide the horizontal line
 * It is unpaired tag
+
+## Elements
+* Element is camination of tags and the content inside the tag
+
+*Types of a Elements*
+* We have 3 type of Element in html
+    * Block Level
+    * InLine Level
+    * Inline-Block level 
+
+
+**Block Level**
+* These elements are taking the full space of its parents and it will displaying in a next line 
+* By Default it will take full width of the parent 
+* We can provide the *height and width* for these elements
+
+    * Eg
+        * `<div></div>`
+
+**Inline Level**
+* These Element will displaying in the same-line 
+* we *can't provide height and width* 
+* It Occupying the content area
+
+    * Eg
+        * `<b>,</b> | <i></i> | <u></u> | <span></span>`
+
+**Inline_Block Levele**
+* It is the combination of `inline and block level element `
+* This Elements are will *display in same line but we can not provide the height and width*
+
+    * Eg
+        * `<button></button> | <input/> | <img> `
