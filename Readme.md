@@ -176,3 +176,22 @@ write the content it will display as it is .
 
     * Eg
         * `<button></button> | <input/> | <img> `
+
+## Attribute
+* Attributes are used to provide additional information to the tags.
+* Attribute should be written in opening tags.
+* Eg
+    *Syntax*
+
+        <tagname attributename="value"></tagname> 
+
+### `<Img> tags`
+* It is used to add the image in the webpage.
+* In this tag we have 4 attributes
+    1. *src* : It is used to provide the path of the image.
+    2. *alt* : It is used to provide the alternate messag .
+        
+        * If the image is not displaying that time this alt message will displayed on the page.
+    3. *height and width* : Used for resizing the image.
+* `<img>` tag : It is a self closing tag / unpaired tag
+* it is one *inline-block* level element.
