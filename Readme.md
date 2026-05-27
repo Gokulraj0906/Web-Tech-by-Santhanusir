@@ -195,3 +195,17 @@ write the content it will display as it is .
     3. *height and width* : Used for resizing the image.
 * `<img>` tag : It is a self closing tag / unpaired tag
 * it is one *inline-block* level element.
+
+### `<marquee> Tag`
+* It used to make any content Scrollable on the webpage 
+* By default the content will scroll from left to right side
+* *Attributes of marquee tag* 
+    * **Scrollamount** - It is used to determine the speed of the scrolling content and by default value is 6
+    * **direction** - It is used to determine the direction of the scrolling content and by deafult value left
+                   - *values* :=> `left`,`right`,`up`,`down`
+    * **behaviour** - It is used to determine how the scrolling content will behave.
+                    - *value* :=> `scroll`,`slide`,`alternate`.
+    * **loop** - It determines how many times the content should scroll.
+
+    * **Height and Width** - It is used to resize the marquee tag area.
+    
