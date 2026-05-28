@@ -208,4 +208,6 @@ write the content it will display as it is .
     * **loop** - It determines how many times the content should scroll.
 
     * **Height and Width** - It is used to resize the marquee tag area.
+
+### `<ol></ol> Tag`
     
