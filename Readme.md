@@ -1,7 +1,7 @@
 # HTML
 
 **What is HTML?**
-* html is stands for `HyperText Markup Language `
+* html is stands for **HyperText Markup Language **
 * It is used for creating  the structure of webpage
 * The Structure we want to create for that we have many tags in html.
 #
@@ -24,20 +24,20 @@ only we are creating a structure.
 **Paired Tag?** 
 * Any tag which has a openning tag and closing tags is called paired tags
     * Eg:
-        `<h1>welcome</h1>`
+        **<h1>welcome</h1>**
 
     *Syntax* 
-    * `<tagname> Content </tagname>`
+    * **<tagname> Content </tagname>**
 
 **Unpaired Tag?**
 * any tag that only the openning tag there no closing tag is called as unpaired tags.
     * Syntax
 
-        `<br>,<hr>,<img>,<meta>`
+        **<br>,<hr>,<img>,<meta>**
 
 ## Structure of the HTML
 
-    `
+    **
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -47,24 +47,24 @@ only we are creating a structure.
         
     </body>
     </html>
-    `
+    **
 
 
-**`<DOCTYPE html>`**
+****<DOCTYPE html>****
 * It is used to tell broswer whcih version of html we aare using.
 * Currently we are using html version 5.
 
-**`<html></html>`**
+****<html></html>****
 * It is the root tag of html structure.
 * all the content should be inside this root tag.
 
-**`<head></head>`**
+****<head></head>****
 * this is used to provide the meta information
 
-**`<title></title>`**
+****<title></title>****
 * This is use show the title of the page 
 
-**`<body></body>`**
+**<body></body>**
 * The content we want to display in the broswer everything should be written inside this tag.
 
 ## Heading Tag
@@ -73,74 +73,74 @@ only we are creating a structure.
 
 * In html for providing headlines (heading or subheading)
 * There are 6 heading tags 
-* `<h1></h1> to <h6></h6>`
+* **<h1></h1> to <h6></h6>**
 * heading tags all paired tags
 * all the heading tags are block - level element
 
     * Eg
-        * `<h1></h1>`
-        * `<h2></h2>`
-        * `<h3></h3>`
-        * `<h4></h4>`
-        * `<h5></h5>`
-        * `<h6></h6>`
+        * **<h1></h1>**
+        * **<h2></h2>**
+        * **<h3></h3>**
+        * **<h4></h4>**
+        * **<h5></h5>**
+        * **<h6></h6>**
 
 **Paragraph**
-* In html if we want to write a any text content , that should be written by using a paragraph tag(`<p></p>`)
-* Paragraph tag is denoted by `<p></p>` and this is paired tag
+* In html if we want to write a any text content , that should be written by using a paragraph tag(**<p></p>**)
+* Paragraph tag is denoted by **<p></p>** and this is paired tag
 * It is a block-level element 
 * paragraph tag size is 16 pixels
 
 ## Formating tags 
 * It is used to chnage the appearance or fomat of the text content
 
-**`<b></b>`**
+****<b></b>****
 * This is used to make the content bold
 
-**`<strong></strong>`**
-* It is also use to make the content bold but this tag having **higher priority** compare to `<b></b>` tag
+****<strong></strong>****
+* It is also use to make the content bold but this tag having **higher priority** compare to **<b></b>** tag
 
-**`<i></i>`**
+****<i></i>****
 * It used to make the content in italic
 
-**`<em><em>`**
-* This is used to make the content itali same like **`<i></i>`**.
+****<em><em>****
+* This is used to make the content itali same like ****<i></i>****.
 
-**`<u></u>`**
+****<u></u>****
 * This tage is used to make or provide the underline for the text content.
 
-**`<ins></ins>`**
+****<ins></ins>****
 * it is also used to provide the underline for the text 
 
-**`<mark></mark>`**
+****<mark></mark>****
 * it is used to provide high light for the text 
 
-***`Important`***
+*****Important*****
 
-**`<sup></sup>`**
+****<sup></sup>****
 * It is used to write any content at the power
 
-**`<sub></su>`**
+****<sub></su>****
 * it is used to write any content at the base
 
-***`end of Important`***
+*****end of Important*****
 
-**`<q></q>`**
+****<q></q>****
 * It is used to provide a double qoutes to the centent
 
-**`<pre></pre>`**
+****<pre></pre>****
 * It is pre-formatted tag, inside this tag how we will
 write the content it will display as it is .
 
-**`<del></del>`**
+****<del></del>****
 * It is used to give strike through the text.
 
-**`<br>`**
+****<br>****
 * It is used to to break the line 
 * It help to move the content in the next line,
 * It is unpaired tag
 
-**`<hr>`**
+****<hr>****
 * It is used to provide the horizontal line
 * It is unpaired tag
 
@@ -160,7 +160,7 @@ write the content it will display as it is .
 * We can provide the *height and width* for these elements
 
     * Eg
-        * `<div></div>`
+        * **<div></div>**
 
 **Inline Level**
 * These Element will displaying in the same-line 
@@ -168,14 +168,14 @@ write the content it will display as it is .
 * It Occupying the content area
 
     * Eg
-        * `<b>,</b> | <i></i> | <u></u> | <span></span>`
+        * **<b>,</b> | <i></i> | <u></u> | <span></span>**
 
 **Inline_Block Levele**
-* It is the combination of `inline and block level element `
+* It is the combination of **inline and block level element **
 * This Elements are will *display in same line but we can not provide the height and width*
 
     * Eg
-        * `<button></button> | <input/> | <img> `
+        * **<button></button> | <input/> | <img> **
 
 ## Attribute
 * Attributes are used to provide additional information to the tags.
@@ -185,7 +185,7 @@ write the content it will display as it is .
 
         <tagname attributename="value"></tagname> 
 
-### `<Img> tags`
+### **<Img> tags**
 * It is used to add the image in the webpage.
 * In this tag we have 4 attributes
     1. *src* : It is used to provide the path of the image.
@@ -193,21 +193,88 @@ write the content it will display as it is .
         
         * If the image is not displaying that time this alt message will displayed on the page.
     3. *height and width* : Used for resizing the image.
-* `<img>` tag : It is a self closing tag / unpaired tag
+* **<img>** tag : It is a self closing tag / unpaired tag
 * it is one *inline-block* level element.
 
-### `<marquee> Tag`
+### **<marquee> Tag**
 * It used to make any content Scrollable on the webpage 
 * By default the content will scroll from left to right side
 * *Attributes of marquee tag* 
     * **Scrollamount** - It is used to determine the speed of the scrolling content and by default value is 6
     * **direction** - It is used to determine the direction of the scrolling content and by deafult value left
-                   - *values* :=> `left`,`right`,`up`,`down`
+                   - *values* :=> **left**,**right**,**up**,**down**
     * **behaviour** - It is used to determine how the scrolling content will behave.
-                    - *value* :=> `scroll`,`slide`,`alternate`.
+                    - *value* :=> **scroll**,**slide**,**alternate**.
     * **loop** - It determines how many times the content should scroll.
 
     * **Height and Width** - It is used to resize the marquee tag area.
 
-### `<ol></ol> Tag`
-    
+# List 
+* In HTMl there 3 types of lIst They are :
+    * Ordered List 
+    * Unordered List
+    * Description List
+
+**Ordered List**
+ * Ordered list is used to group and arrange the elements in particular order.
+ * For creating ordered list we need **<ol></ol> tag**
+ * Inside **<ol></ol> tag** for writting iitems we need **<li></li> tag**  
+  * These tags are *block level* element
+
+  * *Attributes* in **<ol></ol> tag**
+    * **type**
+        * This Attribute is used to change the list style 
+        * value are => 1, a, A, i, I
+        * By default it will take number(1)
+    * **Start**
+        * This is used to specify the starting value of a list style 
+    * **Reversed**
+        * This is used to present in reverse order
+
+**Unordered List**
+
+ * Unordered list is created by using **<ul></ul> tag**
+ * Here are we are gouping the elements together they are not arranged in specific order 
+
+ * inside **<ul></ul>** tag for writting the items we need   **<li></li>** tag
+ * by default it will display the list style as disc or bulletpoints
+ * here we can provide only *type* attribute 
+    * **Type**  
+        * we can give 3 values they are : **disc**,**square**,**circle**,**none** as value 
+
+**Description List** 
+ * For creating Description list we need **<dl></dl> tag.
+ * inside that we have to use **<dt></dt>** and **<dd></dd>** tag.
+ * **<dt></dt>** tag is use to provide the Description for the term.
+ * **<dd></dd>** tag is used to Description definition for that term.
+
+# **<audio></audio> tag**
+* This tag is used to add the audio & music in our webpage
+
+## Attributes
+* **Src**
+    * It is used to provide the path of the audio
+* **Controls**
+    * It we give this attribute then only audio will be visible in the webpage and we can control audio (play,pause,skip)
+* **autoplay**
+    * For this attribute music will start automatically whenever page is loading ore refreshed
+* **muted**
+    * It will make the audio muted
+* **loop**
+    * This attribute is used to play the music n number time like infinity
+
+# **<video></video> tag**
+* this tag is used to display the video on the wepage 
+
+## Attribute
+
+* **src** 
+* **controls**
+* **loops**
+* **autoplay**
+* **muted** these functionality same as audio tags
+
+**poster**
+* this attribute used to provide the image or thumbnail for the video 
+* in this atribute we have to link of the image or path of the image 
+
