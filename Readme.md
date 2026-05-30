@@ -278,3 +278,20 @@ write the content it will display as it is .
 * this attribute used to provide the image or thumbnail for the video 
 * in this atribute we have to link of the image or path of the image 
 
+
+# Iframe tag
+
+* it is used to add the diffrent webapges in the single page 
+* it is inline block level element 
+
+## Attribute
+
+* **Src**
+    * In this attribute we have to provide the path of the webpage we want to add in our webpage.
+
+* **fromeborder** 
+    * It is used to provide outline or border around content 
+    * by defaut value is zero
+
+* **height and width**
+    * Used to provide the size of the content
