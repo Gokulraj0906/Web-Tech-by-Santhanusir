@@ -295,3 +295,30 @@ write the content it will display as it is .
 
 * **height and width**
     * Used to provide the size of the content
+
+## Achor tag
+
+* This achor tag is denoted by `<a></a>` 
+* It is used to creat a hyperlink 
+* It is a in-line level Element
+
+**Attributes**
+
+* **href**
+    * It is used to take the path where we want to navigate 
+    * It helps to navigate or redirect one page to anotherpage 
+
+* **target**
+    * By default if we click any hyperlink it opens in same tab, 
+    * if we want to open in diffrent tag we need a target attribute
+        * `target=_blank`
+            * It is used to open in next new tab
+* **title**
+    * When we hover (keeping mouse cursor on the element) then `title` attribute helps to display some message.
+
+* *step1*
+    * In which tag we want to navigate there we have to give 'id' attribute
+
+* *step2*
+    * Which value we are giving for the id attribute , same value we have to provide in the `href` attribute with `#` symbol
+
