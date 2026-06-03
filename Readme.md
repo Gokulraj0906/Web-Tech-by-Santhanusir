@@ -322,3 +322,24 @@ write the content it will display as it is .
 * *step2*
     * Which value we are giving for the id attribute , same value we have to provide in the `href` attribute with `#` symbol
 
+## Table in HTML
+* Table in html contains of rows and columns .
+* for creating the table this `<table></table>` tag .
+* inside table if we want to create a row , we need `<tr></tr>`tag . 
+* Inside row for giving data we need to use the `<td></td>` tag .
+* for Providing heading data in table we need `<th></th>` tag.
+* for giving the caption/name/title of the table we need `<caption></caption>` tag.
+
+**Attributes in table tag**
+* *1.border*
+    * It used to provide border/outline around the total table.
+    *
+* *2.Height,width*
+    * Used to resize the table length.
+
+* *3. CellSpacing*
+    * It is used to provide the space between the cells.
+
+* *4. cellpanding*
+    * It is used to provide space inside the cell between the content and border.
+
