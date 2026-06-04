@@ -343,3 +343,9 @@ write the content it will display as it is .
 * *4. cellpanding*
     * It is used to provide space inside the cell between the content and border.
 
+***Attributes for `<dt></dt>` and `<th></th>`***
+
+* *Rowspan* 
+    * This attribute is used to combines two or more rows.
+* *colspan*
+    * this attribute is used to combines two or more columns.
