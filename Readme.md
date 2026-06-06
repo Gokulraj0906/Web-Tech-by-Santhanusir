@@ -349,3 +349,20 @@ write the content it will display as it is .
     * This attribute is used to combines two or more rows.
 * *colspan*
     * this attribute is used to combines two or more columns.
+
+* note: 
+    * *we have some extra tags in table like 
+        `<thead></thead>`,
+        `<tbody></tbody>`,
+        `<tfoot></tfoot>`*
+
+## `<div></div>` tags 
+
+* it is one block level elements used to make the division 
+* indside this tag was can write inline / block and inline-block level element
+* we can provide height and width
+
+## `<span></span>`
+
+* it is on inline level element used to select some part of block level elements 
+* we can't provide height and width 
