@@ -1,0 +1,22 @@
+.header > h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.header > h1:hover{
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+
+.content > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.content > p:hover{
+    color: blue;
+    text-shadow: 2px 2px 5px black;
+}

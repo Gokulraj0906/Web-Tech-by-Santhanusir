@@ -1,0 +1,121 @@
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+nav > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+nav > h2:hover{
+    color: green;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav > #login-btn{
+
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    nav > h2 {
+        font-size: 2rem;
+        letter-spacing: 4px;
+    }
+
+    nav > #login-btn,
+    nav > #logout-btn {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    main > h2 {
+        font-size: 2rem;
+    }
+
+    main li {
+        font-size: 1.4rem;
+    }
+}
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav > #logout-btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav > #login-btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav > #logout-btn:hover{
+    background-color: white;
+    color: black;
+
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+main > h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+main > h2:hover{
+    color: purple;
+    text-shadow: 2px 2px 5px black;
+}
+
+main > ul > li:nth-child(3){
+    background-color: #e51111;
+}
+
+main > ol > li:nth-child(2n){
+    background-color: #4ffb00;
+}
+
+main > ol > li:nth-child(2n):hover{
+    background-color: #e51111;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+main > ol > li:nth-child(2n-1){
+    background-color: #00e5ff;
+}
+
+main > ol > li:nth-child(2n-1):hover{
+    background-color: #e51111;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
