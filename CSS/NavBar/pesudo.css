@@ -119,3 +119,21 @@ main > ol > li:nth-child(2n-1):hover{
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.para > h1{
+   text-align: center;
+}
+
+.para > p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para > p{
+    text-indent: 150px;
+}
+
+.para > p::first-letter{
+    font-size: 50px;
+    color: palegreen;
+}
+
