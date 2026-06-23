@@ -2,3 +2,5 @@ Praveen_notes/
 .vscode/
 .idea/
 js/
+.venv/
+node_modules/
