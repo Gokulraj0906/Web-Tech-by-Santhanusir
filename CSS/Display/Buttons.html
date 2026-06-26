@@ -3,15 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Butons</title>
+    <title>Login</title>
 </head>
 <body>
-    <div>
-        <button id="id1">Button 1</button>
-        <button id="id2">Button 2</button>
-        <button id="id3">Button 3</button>
-        <button id="id4">Button 4</button>
-        <button id="id5">Button 5</button>
+    <div class="hero" id="login">
+        <h1 id="tile">Signup</h1>
+        <div class="forms" id="form">
+            <form action="" method="post">
+                <label id="toptext"><i>Signup to myapp</i></label>
+                <label for="Username">Username</label>
+                <input type="text" id="Username" placeholder="Enter your name" required>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" placeholder="Enter your Email" required>
+                <label for="Password">Password</label>
+                <input type="password" id="Password" placeholder="Enter your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}" title="Must contain at least one number, one uppercase, one lowercase letter, and be 8-16 characters long."  required>
+                <button type="submit">Signup</button>
+                <b id="footer">Already Having a Account?<a href="" id="herf">Login</a></b>
+            </form>
+        </div>
     </div>
 </body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+    body {
+        font-family: "Noto Serif", serif;
+        color: black;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #tile {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .forms {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input {
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 1rem;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    #footer {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #herf {
+        padding-left: 5px;
+        color: #007BFF;
+        text-decoration: none;
+    }
+    #toptext { 
+        text-align: center;
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+</style>
 </html>
