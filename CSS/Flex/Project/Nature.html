@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Nature.css">
+    <title>Nature</title>
+</head>
+<body>
+    <nav>
+        <h2>Nature 🌴</h2>
+    </nav>
+
+    <main>
+        <h1>Discover the Beauty of Nature</h1>
+        <p>Nature is one of the most beautiful gifts on Earth. It provides us with fresh air, clean water, colorful flowers, green forests, and majestic mountains. The beauty of nature can be seen in the sunrise, the sound of birds, and the gentle flow of rivers. Spending time in nature helps people feel relaxed, peaceful, and refreshed. It also teaches us the importance of protecting our environment and living in harmony with all living things. By exploring nature, we can discover its wonders and appreciate its beauty. Everyone should take time to enjoy and preserve nature for future generations to experience and admire.</p>
+        <button onclick="exploreNature()">Let's Explore!</button>
+    </main>
+
+    <section>
+        <article>
+            <img src="https://images.pexels.com/photos/8577765/pexels-photo-8577765.jpeg" alt="mountain">
+            <h2>Mountain</h2>
+            <p>Mountains provide fresh air, beautiful scenery, and a peaceful environment. Many people visit mountains for hiking, camping, and adventure activities. They are also home to a variety of plants and animals that thrive in their unique climate. Snow-covered peaks and green slopes make mountains attractive throughout the year. Mountains play an important role in maintaining the environment by storing water and regulating climate. Their beauty and importance inspire people to respect and protect these natural wonders.</p>
+        </article>
+
+        <article>
+            <img src="https://images.pexels.com/photos/32987413/pexels-photo-32987413.jpeg" alt="forest">
+            <h2>Forest</h2>
+            <p>Forests play a crucial role in maintaining the Earth's ecological balance by producing oxygen, absorbing carbon dioxide, and regulating the climate. They also offer recreational opportunities such as hiking, birdwatching, and camping. The serene atmosphere of forests helps reduce stress and promotes mental well-being. Protecting forests is essential for preserving biodiversity and ensuring a healthy planet for future generations.</p>
+        </article>
+
+        <article>
+            <img src="https://images.pexels.com/photos/14942582/pexels-photo-14942582.jpeg" alt="river">
+            <h2>River</h2>
+            <p>Rivers are flowing bodies of water that play a vital role in the ecosystem. They provide fresh water for drinking, irrigation, and industrial use. Rivers also support a wide variety of aquatic life and offer recreational activities such as boating, fishing, and swimming. The gentle flow of rivers creates a calming atmosphere, promoting relaxation and well-being. Protecting rivers is crucial for maintaining clean water supplies and preserving the habitats of countless species.</p>
+        </article>
+    </section>
+</body>
+<script>
+    function exploreNature() {
+        scrollTo({
+            top: document.querySelector('section').offsetTop,
+            behavior: 'smooth'
+        });
+    }
+</script>
+</html>
