@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ironman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp9056844.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.ironman h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.spiderman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp4141009.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+ 
+}
+
+.spiderman h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.thor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp4179966.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+ 
+}
+
+.thor h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+
+.hulk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.bhdw.net/im/hulk-and-his-soal-power-showing-wallpaper-102806_w635.webp");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+ 
+}
+
+.hulk h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.cap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp8950037.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+ 
+}
+
+.cap h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.ironman, .spiderman, .thor, .hulk, .cap{
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
