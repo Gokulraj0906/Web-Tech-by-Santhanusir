@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.chessboard{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right top,black,salmon);
+}
+
+.row{
+    display:flex;
+}
+
+.cell_white,
+.cell_black{
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.cell_white{
+    background:white;
+}
+
+.cell_black{
+    background:black;
+    color:white;
+}
