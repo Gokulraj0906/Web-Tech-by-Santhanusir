@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background: linear-gradient(to top right, red,white);
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+/* 1. Base style for all sections (Set initial background position to top) */
+main > section {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: yellow;
+    box-shadow: 0px 0px 10px black;
+    background-position: left top;
+    background-size: 100% auto;       
+    transition: transform 0.5s ease, background-position 2s ease-in-out;
+}
+
+main > section:hover {
+    transform: scale(1.05);
+    background-position: left bottom;
+}
+
+main > #s1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg');
+    background-size: cover;
+}
+
+
+main > #s2{
+    background-image: url('https://kids.earth.org/wp-content/uploads/2023/02/Untitled-1024-%C3%97-683px-2023-02-06T214137.204-900x600.jpg');
+    background-size: cover;
+}
+
+main > #s3{
+    background-image: url('https://img.magnific.com/free-photo/almond-background_95678-15.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main > #s4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYohiWG1klyX99ro7i7hy0nZk6z4_kq3hmz1E377nj44BnxRZ3HyGHD9A&s=10');
+    background-size: cover;
+}
+
+main > #s5{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLKWr7Dw9zv1W84qI3eTcfgbqZV4XHxV5G9FjJn_8fOoDrlSZPXFm0d5Y&s=10');
+    background-size: cover;
+}
+
+main > #s6{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZKGST72RAei4cEwbOLyFvXTkRBJHkDCiv-SOgMjBHs9xC5sFcieP4gW1&s=10');
+    background-size: cover;
+}
+
+main > #s7{
+    background-image: url('https://cdn.britannica.com/05/155405-050-F8969EE6/Spring-flowers-fruit-trees-bloom.jpg');
+    background-size: cover;
+}
+
+main > #s1{
+    grid-row: span 2;
+}
+main > #s4{
+    grid-column: span 2;
+}
+
+main > section:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 2rem;
+    color: black;
+    text-shadow: 2px 2px 4px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
