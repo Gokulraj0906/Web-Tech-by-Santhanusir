@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer1{
+    height: 100vh;
+    background: linear-gradient(to right top,grey,blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+
+.outer1 > .left{
+    height: 400px;
+    width: 400px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer1 > .right{
+    height: 400px;
+    width: 400px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer1 > .left > .box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    animation: changecolor 3s linear infinite alternate;
+
+}
+
+.outer1 > .right > .box2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    animation: changecolor 12s linear infinite alternate;
+}
+
+@keyframes changecolor {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+    to{
+        background-color: aquamarine;
+    }
+    to{
+        transform: scale(3.1);
+        transition: all 2s ease-in-out;
+    }
+}
