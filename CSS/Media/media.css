@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    background: red;
+}
+
+@media (min-width: 431px) and (max-width: 630px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media(max-width:130px) {
+    body{
+        background-color: yellow;
+    }
+    
+}
